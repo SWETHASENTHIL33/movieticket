@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href=
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"  crossorigin="anonymous">
+    <title>Book Shamshera</title>
+</head>
+<body>
+    <center>
+    <div class="card" style="width: 50rem; margin: 20px;">
+        <div class="card" style="padding: 10px;">
+            <img src="shamshera.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+        <div class="card-body">
+          <h5 class="card-title">Shamshera</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Dome 3: 03:00 PM</h6>
+          <form action = "book" class="row g-3 needs-validation" style = "margin: 20px;" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" name="firstname" class="form-control" id="validationCustom01" value=" " required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" name="lastname" class="form-control" id="validationCustom02" value=" " required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Date</label>
+                <input type="date" name="date" class="form-control" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Number of Tickets</label>
+                <input type="text" name="tkts" class="form-control" id="validationCustom02" value="1" required>
+            </div>
+    
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Mobile Number</label>
+                <input type="text" name="mob" class="form-control" id="validationCustom02" value=" " required>
+            </div>
+    
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Email</label>
+                <input type="email"  name="email" class="form-control" id="validationCustom02" value=" " required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Movie name</label>
+                <input type="text" name="movie" value="Shamshera">
+    
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+          </form>
+          <input type="submit" class="btn btn-primary" value="Book Ticket">
+        </div>
+      </div>
+    </center>
+</body>
+</html>
